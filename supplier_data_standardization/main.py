@@ -1,7 +1,24 @@
 import os
 import pandas as pd
 import logging
-from utils import get_file_path, read_data, setup_logging, clean_headers, validate_quantity_column
+from supplier_data_standardization.utils import get_file_path, read_data, setup_logging, clean_headers, \
+    validate_quantity_column
+
+
+def create_dimension_column(dataframe, thickness_col='Thickness', width_col='Width'):
+    """
+    Creates a DIMENSION column in the given DataFrame by combining the thickness and width columns.
+
+    Parameters:
+    dataframe (pd.DataFrame): The DataFrame containing the thickness and width columns.
+    thickness_col (str): The name of the thickness column.
+    width_col (str): The name of the width column.
+
+    Returns:
+    pd.DataFrame: The DataFrame with the added DIMENSION column.
+    """
+    dataframe['DIMENSION'] = dataframe[thickness_col].astype(str) + 'x' + dataframe[width_col].astype(str)
+    return dataframe
 
 
 def process_source1():
@@ -23,8 +40,7 @@ def process_source1():
             'Width (mm)': 'Width'
         })
 
-        # Create the DIMENSION column
-        data1['DIMENSION'] = data1['Thickness'].astype(str) + 'x' + data1['Width'].astype(str)
+        data1 = create_dimension_column(data1, thickness_col='Thickness', width_col='Width')
 
         # Drop original Thickness and Width columns
         data1 = data1.drop(columns=['Thickness', 'Width'])
@@ -41,14 +57,20 @@ def process_source1():
         return pd.DataFrame()
 
 
-def process_source2():
+def process_source2(file_path=None):
     """
     Processes the data from source2.xlsx.
+
+    Parameters:
+    file_path (str): Path to the source2.xlsx file.
 
     Returns:
     pd.DataFrame: The combined and processed DataFrame.
     """
-    xls = pd.ExcelFile(get_file_path('source2.xlsx'))
+    if file_path is None:
+        file_path = get_file_path('source2.xlsx')
+
+    xls = pd.ExcelFile(file_path)
 
     df_first_choice = pd.read_excel(xls, 'First choice ')
     df_second_choice = pd.read_excel(xls, '2nd choice ')
