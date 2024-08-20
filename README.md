@@ -69,7 +69,6 @@ The main script is responsible for processing the raw data files, performing ini
 python main.py
 
 This script:
-
 Reads the input data from the data directory.
 Processes the data by merging and cleaning it.
 Saves the processed data in the data/final_combined_output.csv file.
