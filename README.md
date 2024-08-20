@@ -80,7 +80,6 @@ After processing the data with the main script, the NER (Named Entity Recognitio
 python ner_model.py
 
 This script:
-
 Reads the processed data from data/final_combined_output.csv.
 Applies the spaCy NER model to extract entities.
 Merges the extracted entities back into the original data.
