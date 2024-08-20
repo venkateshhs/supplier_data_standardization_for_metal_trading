@@ -1,6 +1,7 @@
 # **Supplier Data Standardization for Metal Trading**
 
 This project is designed to standardize and process supplier data in the metal trading industry. It leverages Python libraries such as `pandas` and `spaCy` to preprocess data, extract entities using Natural Language Processing (NLP), and produce a standardized output.
+Final output CSV file can be found here : https://github.com/venkateshhs/supplier_data_standardization_for_metal_trading/blob/main/data/final_combined_output_with_entities.csv
 ## **Setup**
 
 1. **Clone the repository**:
@@ -67,33 +68,6 @@ If there is any error either run the Unit test through pycharm or any IDE or set
    set PYTHONPATH=your_folder_path\supplier_data_standardization_for_metal_trading
    python -m unittest nlp_test.py
 ```
-
-
-## Data Processing Overview
-main.py:
-
-This script processes data from three different Excel sources (`Source1.xlsx`, `Source2.xlsx`, and `Source3.xlsx`), standardizes the data, and combines it for further analysis.
-
-### Source1.xlsx
-- **Column Renaming**:
-  - `'Quality/Choice'` ➜ `'MATERIAL_GRADE'`
-  - `'Grade'` ➜ `'MATERIAL_NAME'`
-  - `'Finish'` ➜ `'COATING_TYPE'`
-  - `'Gross weight (kg)'` ➜ `'weight'`
-  - `'Thickness (mm)'` ➜ `'Thickness'`
-  - `'Width (mm)'` ➜ `'Width'`
-- **Dimension Creation**: The `Thickness` and `Width` columns were merged to create a new `DIMENSION` column (e.g., `5x50`).
-- **Data Cleaning**: Rows containing any `NaN` values were dropped to ensure clean and complete data.
-
-### Source2.xlsx
-- **Multiple Sheets Handling**: Data was read from two sheets—"First choice" and "2nd choice".
-- **Header Cleaning**: Headers in both sheets were cleaned and normalized, with repeated headers removed.
-- **Data Filtering**: Only necessary columns were selected, and rows with `NaN` values in critical columns were dropped.
-
-### Source3.xlsx
-- **Column Renaming**: Columns were renamed for standardization.
-- **Unit Conversion**: The `weight` column was recalculated in kilograms based on the original unit (grams, milligrams, pounds, etc.), and the `Unit` column was removed.
-- **Column Selection**: Only key columns were retained after processing for further analysis.
 
 # Data Processing and NLP Training Overview
 
