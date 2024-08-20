@@ -1,0 +1,26 @@
+2024-08-19 21:25:08,752 - INFO - Created vocabulary
+2024-08-19 21:25:08,752 - INFO - Finished initializing nlp object
+2024-08-19 21:25:09,002 - INFO - Iteration 1, Losses: {'ner': 160.58268022537231}
+2024-08-19 21:25:09,191 - INFO - Iteration 2, Losses: {'ner': 147.20412856340408}
+2024-08-19 21:25:09,427 - INFO - Iteration 3, Losses: {'ner': 135.4473943412304}
+2024-08-19 21:25:09,651 - INFO - Iteration 4, Losses: {'ner': 128.24457022547722}
+2024-08-19 21:25:09,924 - INFO - Iteration 5, Losses: {'ner': 109.94284189864993}
+2024-08-19 21:25:10,152 - INFO - Iteration 6, Losses: {'ner': 80.94658295623958}
+2024-08-19 21:25:10,429 - INFO - Iteration 7, Losses: {'ner': 57.72657433222048}
+2024-08-19 21:25:10,660 - INFO - Iteration 8, Losses: {'ner': 44.26154526372102}
+2024-08-19 21:25:10,913 - INFO - Iteration 9, Losses: {'ner': 29.110404214926245}
+2024-08-19 21:25:11,240 - INFO - Iteration 10, Losses: {'ner': 27.79370063246267}
+2024-08-19 21:25:11,490 - INFO - Iteration 11, Losses: {'ner': 14.232751167766843}
+2024-08-19 21:25:11,725 - INFO - Iteration 12, Losses: {'ner': 12.68508667309314}
+2024-08-19 21:25:11,960 - INFO - Iteration 13, Losses: {'ner': 6.229397683439357}
+2024-08-19 21:25:12,195 - INFO - Iteration 14, Losses: {'ner': 5.991825033374663}
+2024-08-19 21:25:12,507 - INFO - Iteration 15, Losses: {'ner': 6.308110007019501}
+2024-08-19 21:25:12,845 - INFO - Iteration 16, Losses: {'ner': 8.908607778122645}
+2024-08-19 21:25:13,108 - INFO - Iteration 17, Losses: {'ner': 7.609407817811178}
+2024-08-19 21:25:13,358 - INFO - Iteration 18, Losses: {'ner': 1.0267561680568895}
+2024-08-19 21:25:13,606 - INFO - Iteration 19, Losses: {'ner': 5.9807317452454205}
+2024-08-19 21:25:13,828 - INFO - Iteration 20, Losses: {'ner': 4.140283453736616}
+2024-08-19 21:25:14,089 - INFO - Iteration 21, Losses: {'ner': 4.9386130022501815}
+2024-08-19 21:25:14,312 - INFO - Iteration 22, Losses: {'ner': 5.644168453118302}
+2024-08-19 21:25:14,532 - INFO - Iteration 23, Losses: {'ner': 2.365103596590503}
+2024-08-19 21:25:14,532 - INFO - Early stopping: No improvement in loss for the last 5 iterations.

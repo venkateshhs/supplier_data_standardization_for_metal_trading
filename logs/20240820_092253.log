@@ -1,0 +1,27 @@
+2024-08-20 09:22:53,899 - INFO - Created vocabulary
+2024-08-20 09:22:53,900 - INFO - Finished initializing nlp object
+2024-08-20 09:22:55,617 - INFO - Iteration 1, Losses: {'ner': 2229.785776682198}
+2024-08-20 09:22:57,368 - INFO - Iteration 2, Losses: {'ner': 1345.2516837310977}
+2024-08-20 09:23:00,800 - INFO - Iteration 3, Losses: {'ner': 633.1555362260685}
+2024-08-20 09:23:04,154 - INFO - Iteration 4, Losses: {'ner': 224.4793298459217}
+2024-08-20 09:23:07,330 - INFO - Iteration 5, Losses: {'ner': 103.62053475236101}
+2024-08-20 09:23:10,638 - INFO - Iteration 6, Losses: {'ner': 78.05514034713185}
+2024-08-20 09:23:13,799 - INFO - Iteration 7, Losses: {'ner': 43.69886168118411}
+2024-08-20 09:23:17,055 - INFO - Iteration 8, Losses: {'ner': 15.056545512533724}
+2024-08-20 09:23:20,357 - INFO - Iteration 9, Losses: {'ner': 13.403502014804287}
+2024-08-20 09:23:23,729 - INFO - Iteration 10, Losses: {'ner': 16.116134578997308}
+2024-08-20 09:23:26,829 - INFO - Iteration 11, Losses: {'ner': 4.048537268354943}
+2024-08-20 09:23:29,863 - INFO - Iteration 12, Losses: {'ner': 9.752140251779919}
+2024-08-20 09:23:32,949 - INFO - Iteration 13, Losses: {'ner': 0.07355804248439382}
+2024-08-20 09:23:36,079 - INFO - Iteration 14, Losses: {'ner': 0.0936413796329034}
+2024-08-20 09:23:39,229 - INFO - Iteration 15, Losses: {'ner': 0.5401168416346771}
+2024-08-20 09:23:42,441 - INFO - Iteration 16, Losses: {'ner': 1.673785581128978}
+2024-08-20 09:23:45,806 - INFO - Iteration 17, Losses: {'ner': 0.01819097898466552}
+2024-08-20 09:23:50,302 - INFO - Iteration 18, Losses: {'ner': 0.6741315608358978}
+2024-08-20 09:23:51,627 - INFO - Iteration 19, Losses: {'ner': 0.18913695790664853}
+2024-08-20 09:23:54,204 - INFO - Iteration 20, Losses: {'ner': 1.980466162283611}
+2024-08-20 09:23:55,491 - INFO - Iteration 21, Losses: {'ner': 0.7641062690540094}
+2024-08-20 09:23:56,774 - INFO - Iteration 22, Losses: {'ner': 0.5075853957784894}
+2024-08-20 09:23:56,774 - INFO - Early stopping: No improvement in loss for the last 5 iterations.
+2024-08-20 09:23:58,157 - ERROR - Error extracting entities from CSV: 'NoneType' object has no attribute 'to_csv'
+2024-08-20 09:23:58,157 - INFO - Entities extracted and saved to: C:\Users\Vishwas\Desktop\Interview docs\Vanilla Steel\supplier_data_standardization_for_metal_trading\data\final_combined_output_with_entities.csv

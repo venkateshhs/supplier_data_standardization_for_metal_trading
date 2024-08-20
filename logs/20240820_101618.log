@@ -1,0 +1,23 @@
+2024-08-20 10:16:19,082 - INFO - Created vocabulary
+2024-08-20 10:16:19,082 - INFO - Finished initializing nlp object
+2024-08-20 10:16:20,131 - INFO - Iteration 1, Losses: {'ner': 2204.0188416540623}
+2024-08-20 10:16:21,256 - INFO - Iteration 2, Losses: {'ner': 1488.1094171726145}
+2024-08-20 10:16:22,323 - INFO - Iteration 3, Losses: {'ner': 530.2399378340624}
+2024-08-20 10:16:23,337 - INFO - Iteration 4, Losses: {'ner': 231.06834485880827}
+2024-08-20 10:16:24,323 - INFO - Iteration 5, Losses: {'ner': 138.49438160816368}
+2024-08-20 10:16:25,261 - INFO - Iteration 6, Losses: {'ner': 66.56087099258299}
+2024-08-20 10:16:26,217 - INFO - Iteration 7, Losses: {'ner': 105.86932286936477}
+2024-08-20 10:16:27,233 - INFO - Iteration 8, Losses: {'ner': 74.08606835542227}
+2024-08-20 10:16:28,250 - INFO - Iteration 9, Losses: {'ner': 61.00039481460577}
+2024-08-20 10:16:29,601 - INFO - Iteration 10, Losses: {'ner': 9.11806859861186}
+2024-08-20 10:16:30,681 - INFO - Iteration 11, Losses: {'ner': 8.35241866924279}
+2024-08-20 10:16:31,745 - INFO - Iteration 12, Losses: {'ner': 2.0672634135571823}
+2024-08-20 10:16:32,747 - INFO - Iteration 13, Losses: {'ner': 0.12656379786059505}
+2024-08-20 10:16:33,842 - INFO - Iteration 14, Losses: {'ner': 0.23634636037703546}
+2024-08-20 10:16:34,764 - INFO - Iteration 15, Losses: {'ner': 1.507366756080043}
+2024-08-20 10:16:35,800 - INFO - Iteration 16, Losses: {'ner': 0.3258033325614761}
+2024-08-20 10:16:36,827 - INFO - Iteration 17, Losses: {'ner': 1.6603541746369745}
+2024-08-20 10:16:37,909 - INFO - Iteration 18, Losses: {'ner': 0.3262977418180768}
+2024-08-20 10:16:37,925 - INFO - Early stopping: No improvement in loss for the last 5 iterations.
+2024-08-20 10:16:38,817 - INFO - Entities extracted and saved to: C:\Users\Vishwas\Desktop\Interview docs\Vanilla Steel\supplier_data_standardization_for_metal_trading\data\final_combined_output_with_entities.csv
+2024-08-20 10:16:38,817 - INFO - Entities extracted and saved to: C:\Users\Vishwas\Desktop\Interview docs\Vanilla Steel\supplier_data_standardization_for_metal_trading\data\final_combined_output_with_entities.csv

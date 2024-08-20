@@ -1,0 +1,31 @@
+2024-08-20 09:24:37,788 - INFO - Created vocabulary
+2024-08-20 09:24:37,788 - INFO - Finished initializing nlp object
+2024-08-20 09:24:39,328 - INFO - Iteration 1, Losses: {'ner': 2221.706516623497}
+2024-08-20 09:24:40,337 - INFO - Iteration 2, Losses: {'ner': 1094.291302803409}
+2024-08-20 09:24:41,564 - INFO - Iteration 3, Losses: {'ner': 328.8296186631108}
+2024-08-20 09:24:42,761 - INFO - Iteration 4, Losses: {'ner': 218.7078249647673}
+2024-08-20 09:24:45,230 - INFO - Iteration 5, Losses: {'ner': 101.10057797196623}
+2024-08-20 09:24:48,164 - INFO - Iteration 6, Losses: {'ner': 50.42689232222322}
+2024-08-20 09:24:51,527 - INFO - Iteration 7, Losses: {'ner': 31.813567915829992}
+2024-08-20 09:24:55,651 - INFO - Iteration 8, Losses: {'ner': 24.381132112716077}
+2024-08-20 09:24:58,241 - INFO - Iteration 9, Losses: {'ner': 17.278924451080893}
+2024-08-20 09:24:59,650 - INFO - Iteration 10, Losses: {'ner': 39.1486211957389}
+2024-08-20 09:25:01,092 - INFO - Iteration 11, Losses: {'ner': 48.77212917593519}
+2024-08-20 09:25:02,668 - INFO - Iteration 12, Losses: {'ner': 18.128046851249113}
+2024-08-20 09:25:04,310 - INFO - Iteration 13, Losses: {'ner': 0.7775823738189626}
+2024-08-20 09:25:06,002 - INFO - Iteration 14, Losses: {'ner': 4.628499947563436}
+2024-08-20 09:25:07,627 - INFO - Iteration 15, Losses: {'ner': 5.773975178063317}
+2024-08-20 09:25:09,130 - INFO - Iteration 16, Losses: {'ner': 0.05613201596595384}
+2024-08-20 09:25:10,806 - INFO - Iteration 17, Losses: {'ner': 0.11644047686075223}
+2024-08-20 09:25:13,450 - INFO - Iteration 18, Losses: {'ner': 0.8348076410275209}
+2024-08-20 09:25:14,706 - INFO - Iteration 19, Losses: {'ner': 0.0013990908304876545}
+2024-08-20 09:25:16,104 - INFO - Iteration 20, Losses: {'ner': 0.0025247451409756002}
+2024-08-20 09:25:17,218 - INFO - Iteration 21, Losses: {'ner': 7.639807318927775e-05}
+2024-08-20 09:25:20,080 - INFO - Iteration 22, Losses: {'ner': 0.0009302449471978463}
+2024-08-20 09:25:22,781 - INFO - Iteration 23, Losses: {'ner': 0.09056505050994464}
+2024-08-20 09:25:25,875 - INFO - Iteration 24, Losses: {'ner': 0.32020008708767145}
+2024-08-20 09:25:29,068 - INFO - Iteration 25, Losses: {'ner': 1.0149040339120483}
+2024-08-20 09:25:32,381 - INFO - Iteration 26, Losses: {'ner': 0.8780706812308683}
+2024-08-20 09:25:32,381 - INFO - Early stopping: No improvement in loss for the last 5 iterations.
+2024-08-20 09:25:35,081 - ERROR - Error extracting entities from CSV: 'NoneType' object has no attribute 'to_csv'
+2024-08-20 09:25:35,081 - INFO - Entities extracted and saved to: C:\Users\Vishwas\Desktop\Interview docs\Vanilla Steel\supplier_data_standardization_for_metal_trading\data\final_combined_output_with_entities.csv

@@ -1,0 +1,32 @@
+2024-08-20 10:34:45,759 - INFO - Created vocabulary
+2024-08-20 10:34:45,759 - INFO - Finished initializing nlp object
+2024-08-20 10:34:46,854 - INFO - Iteration 1, Losses: {'ner': 2221.111973285675}
+2024-08-20 10:34:47,902 - INFO - Iteration 2, Losses: {'ner': 1361.8316315542907}
+2024-08-20 10:34:48,935 - INFO - Iteration 3, Losses: {'ner': 288.1299463712751}
+2024-08-20 10:34:50,156 - INFO - Iteration 4, Losses: {'ner': 243.72142291589395}
+2024-08-20 10:34:51,094 - INFO - Iteration 5, Losses: {'ner': 79.51802670087342}
+2024-08-20 10:34:52,048 - INFO - Iteration 6, Losses: {'ner': 78.69056239912655}
+2024-08-20 10:34:53,647 - INFO - Iteration 7, Losses: {'ner': 42.3563451258697}
+2024-08-20 10:34:54,695 - INFO - Iteration 8, Losses: {'ner': 30.012364324591015}
+2024-08-20 10:34:55,617 - INFO - Iteration 9, Losses: {'ner': 16.07035516312994}
+2024-08-20 10:34:56,571 - INFO - Iteration 10, Losses: {'ner': 14.243562763202286}
+2024-08-20 10:34:57,494 - INFO - Iteration 11, Losses: {'ner': 52.18694927845567}
+2024-08-20 10:34:58,401 - INFO - Iteration 12, Losses: {'ner': 7.244208680659325}
+2024-08-20 10:34:59,355 - INFO - Iteration 13, Losses: {'ner': 1.4789409837867953}
+2024-08-20 10:35:00,262 - INFO - Iteration 14, Losses: {'ner': 0.08424625716035658}
+2024-08-20 10:35:01,285 - INFO - Iteration 15, Losses: {'ner': 0.034314470179237555}
+2024-08-20 10:35:02,234 - INFO - Iteration 16, Losses: {'ner': 0.007599299169597713}
+2024-08-20 10:35:03,146 - INFO - Iteration 17, Losses: {'ner': 0.001125947368374272}
+2024-08-20 10:35:04,065 - INFO - Iteration 18, Losses: {'ner': 0.0006794758407711899}
+2024-08-20 10:35:04,987 - INFO - Iteration 19, Losses: {'ner': 0.008812004516143742}
+2024-08-20 10:35:05,940 - INFO - Iteration 20, Losses: {'ner': 0.0018289773382578738}
+2024-08-20 10:35:06,848 - INFO - Iteration 21, Losses: {'ner': 3.7003633955245454}
+2024-08-20 10:35:07,739 - INFO - Iteration 22, Losses: {'ner': 2.986735223416556e-05}
+2024-08-20 10:35:08,680 - INFO - Iteration 23, Losses: {'ner': 0.3899575442832045}
+2024-08-20 10:35:09,587 - INFO - Iteration 24, Losses: {'ner': 0.9726816814215735}
+2024-08-20 10:35:10,462 - INFO - Iteration 25, Losses: {'ner': 0.11755823146452798}
+2024-08-20 10:35:11,415 - INFO - Iteration 26, Losses: {'ner': 3.054413504529219}
+2024-08-20 10:35:12,338 - INFO - Iteration 27, Losses: {'ner': 0.00015747223207835287}
+2024-08-20 10:35:12,338 - INFO - Early stopping: No improvement in loss for the last 5 iterations.
+2024-08-20 10:35:13,012 - ERROR - Error extracting entities from CSV: cannot reindex on an axis with duplicate labels
+2024-08-20 10:35:13,012 - INFO - Entities extracted and saved to: C:\Users\Vishwas\Desktop\Interview docs\Vanilla Steel\supplier_data_standardization_for_metal_trading\data\final_combined_output_with_entities.csv

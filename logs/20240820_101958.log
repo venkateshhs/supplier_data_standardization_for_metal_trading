@@ -1,0 +1,54 @@
+2024-08-20 10:19:58,546 - INFO - Created vocabulary
+2024-08-20 10:19:58,546 - INFO - Finished initializing nlp object
+2024-08-20 10:19:59,737 - INFO - Iteration 1, Losses: {'ner': 2004.9289660453796}
+2024-08-20 10:20:01,245 - INFO - Iteration 2, Losses: {'ner': 1199.1068581482396}
+2024-08-20 10:20:02,231 - INFO - Iteration 3, Losses: {'ner': 426.4289352739361}
+2024-08-20 10:20:03,249 - INFO - Iteration 4, Losses: {'ner': 248.1795385696561}
+2024-08-20 10:20:04,233 - INFO - Iteration 5, Losses: {'ner': 173.61275756815832}
+2024-08-20 10:20:05,156 - INFO - Iteration 6, Losses: {'ner': 46.2012459886204}
+2024-08-20 10:20:06,094 - INFO - Iteration 7, Losses: {'ner': 23.90739278830723}
+2024-08-20 10:20:07,001 - INFO - Iteration 8, Losses: {'ner': 39.62056268212326}
+2024-08-20 10:20:07,923 - INFO - Iteration 9, Losses: {'ner': 16.779522558376364}
+2024-08-20 10:20:08,876 - INFO - Iteration 10, Losses: {'ner': 22.919089621992654}
+2024-08-20 10:20:09,815 - INFO - Iteration 11, Losses: {'ner': 32.70633863239701}
+2024-08-20 10:20:10,707 - INFO - Iteration 12, Losses: {'ner': 6.524970997113988}
+2024-08-20 10:20:11,646 - INFO - Iteration 13, Losses: {'ner': 2.389653494987429}
+2024-08-20 10:20:12,537 - INFO - Iteration 14, Losses: {'ner': 2.078682472536612}
+2024-08-20 10:20:13,429 - INFO - Iteration 15, Losses: {'ner': 3.1950189564735187}
+2024-08-20 10:20:14,336 - INFO - Iteration 16, Losses: {'ner': 2.146802599076778}
+2024-08-20 10:20:15,242 - INFO - Iteration 17, Losses: {'ner': 0.04419426256392037}
+2024-08-20 10:20:16,134 - INFO - Iteration 18, Losses: {'ner': 0.06629367917024892}
+2024-08-20 10:20:17,026 - INFO - Iteration 19, Losses: {'ner': 2.3570230111645727}
+2024-08-20 10:20:17,916 - INFO - Iteration 20, Losses: {'ner': 0.839402918192785}
+2024-08-20 10:20:18,823 - INFO - Iteration 21, Losses: {'ner': 2.443176613574876}
+2024-08-20 10:20:19,714 - INFO - Iteration 22, Losses: {'ner': 1.9709351136485185}
+2024-08-20 10:20:20,636 - INFO - Iteration 23, Losses: {'ner': 0.06770496723276964}
+2024-08-20 10:20:21,605 - INFO - Iteration 24, Losses: {'ner': 1.0827683501145084}
+2024-08-20 10:20:22,544 - INFO - Iteration 25, Losses: {'ner': 0.7991612972444578}
+2024-08-20 10:20:23,467 - INFO - Iteration 26, Losses: {'ner': 3.40028545160107}
+2024-08-20 10:20:24,390 - INFO - Iteration 27, Losses: {'ner': 0.008392798976226858}
+2024-08-20 10:20:25,282 - INFO - Iteration 28, Losses: {'ner': 0.0035793690195749972}
+2024-08-20 10:20:26,220 - INFO - Iteration 29, Losses: {'ner': 0.026279715656751943}
+2024-08-20 10:20:27,111 - INFO - Iteration 30, Losses: {'ner': 0.00076965506852119}
+2024-08-20 10:20:28,034 - INFO - Iteration 31, Losses: {'ner': 0.9351024271178806}
+2024-08-20 10:20:28,988 - INFO - Iteration 32, Losses: {'ner': 0.00012327342502802764}
+2024-08-20 10:20:29,926 - INFO - Iteration 33, Losses: {'ner': 0.002023487764826154}
+2024-08-20 10:20:30,848 - INFO - Iteration 34, Losses: {'ner': 0.0009138295791541247}
+2024-08-20 10:20:31,740 - INFO - Iteration 35, Losses: {'ner': 2.3332763872580837e-05}
+2024-08-20 10:20:32,662 - INFO - Iteration 36, Losses: {'ner': 4.891615851179577e-05}
+2024-08-20 10:20:33,569 - INFO - Iteration 37, Losses: {'ner': 4.348509739546427e-06}
+2024-08-20 10:20:34,476 - INFO - Iteration 38, Losses: {'ner': 1.2493268414356309e-06}
+2024-08-20 10:20:35,383 - INFO - Iteration 39, Losses: {'ner': 1.9694328821623404e-06}
+2024-08-20 10:20:36,274 - INFO - Iteration 40, Losses: {'ner': 0.003799686727201846}
+2024-08-20 10:20:37,181 - INFO - Iteration 41, Losses: {'ner': 2.4755828792892774e-05}
+2024-08-20 10:20:38,074 - INFO - Iteration 42, Losses: {'ner': 2.2629503184393437e-05}
+2024-08-20 10:20:38,979 - INFO - Iteration 43, Losses: {'ner': 1.4884225541855657e-05}
+2024-08-20 10:20:39,933 - INFO - Iteration 44, Losses: {'ner': 1.5113566932141673}
+2024-08-20 10:20:40,824 - INFO - Iteration 45, Losses: {'ner': 0.000228553156745853}
+2024-08-20 10:20:41,715 - INFO - Iteration 46, Losses: {'ner': 0.00033335857711869795}
+2024-08-20 10:20:42,623 - INFO - Iteration 47, Losses: {'ner': 7.86171405703932e-05}
+2024-08-20 10:20:43,592 - INFO - Iteration 48, Losses: {'ner': 0.00017141495120034117}
+2024-08-20 10:20:44,499 - INFO - Iteration 49, Losses: {'ner': 2.9702910996823267e-05}
+2024-08-20 10:20:45,407 - INFO - Iteration 50, Losses: {'ner': 2.8900090300544174e-06}
+2024-08-20 10:20:46,080 - INFO - Entities extracted and saved to: C:\Users\Vishwas\Desktop\Interview docs\Vanilla Steel\supplier_data_standardization_for_metal_trading\data\final_combined_output_with_entities.csv
+2024-08-20 10:20:46,080 - INFO - Entities extracted and saved to: C:\Users\Vishwas\Desktop\Interview docs\Vanilla Steel\supplier_data_standardization_for_metal_trading\data\final_combined_output_with_entities.csv

@@ -1,0 +1,25 @@
+2024-08-19 21:47:10,141 - INFO - Created vocabulary
+2024-08-19 21:47:10,141 - INFO - Finished initializing nlp object
+2024-08-19 21:47:13,594 - INFO - Iteration 1, Losses: {'ner': 2332.7853438854218}
+2024-08-19 21:47:16,618 - INFO - Iteration 2, Losses: {'ner': 1235.6864426303655}
+2024-08-19 21:47:19,761 - INFO - Iteration 3, Losses: {'ner': 323.5296102247196}
+2024-08-19 21:47:22,643 - INFO - Iteration 4, Losses: {'ner': 224.9758601640181}
+2024-08-19 21:47:25,519 - INFO - Iteration 5, Losses: {'ner': 46.5013322984394}
+2024-08-19 21:47:28,521 - INFO - Iteration 6, Losses: {'ner': 64.72157738374891}
+2024-08-19 21:47:31,566 - INFO - Iteration 7, Losses: {'ner': 75.01154605189606}
+2024-08-19 21:47:34,483 - INFO - Iteration 8, Losses: {'ner': 31.729351947117717}
+2024-08-19 21:47:37,155 - INFO - Iteration 9, Losses: {'ner': 68.69882313859769}
+2024-08-19 21:47:40,059 - INFO - Iteration 10, Losses: {'ner': 9.998444984693444}
+2024-08-19 21:47:42,786 - INFO - Iteration 11, Losses: {'ner': 6.772194876616857}
+2024-08-19 21:47:45,756 - INFO - Iteration 12, Losses: {'ner': 3.267685690650379}
+2024-08-19 21:47:48,871 - INFO - Iteration 13, Losses: {'ner': 0.1569023802942855}
+2024-08-19 21:47:51,828 - INFO - Iteration 14, Losses: {'ner': 0.0806996382943117}
+2024-08-19 21:47:54,894 - INFO - Iteration 15, Losses: {'ner': 0.0023343683772392}
+2024-08-19 21:47:57,989 - INFO - Iteration 16, Losses: {'ner': 0.4318580717786997}
+2024-08-19 21:48:01,003 - INFO - Iteration 17, Losses: {'ner': 0.05641471454520489}
+2024-08-19 21:48:04,101 - INFO - Iteration 18, Losses: {'ner': 2.445132547994107}
+2024-08-19 21:48:07,233 - INFO - Iteration 19, Losses: {'ner': 0.1187195825491809}
+2024-08-19 21:48:10,290 - INFO - Iteration 20, Losses: {'ner': 0.006036433698242478}
+2024-08-19 21:48:10,290 - INFO - Early stopping: No improvement in loss for the last 5 iterations.
+2024-08-19 21:48:12,908 - INFO - Entities extracted and saved to: C:\Users\Vishwas\Desktop\Interview docs\Vanilla Steel\supplier_data_standardization_for_metal_trading\data\final_combined_output_with_entities.csv
+2024-08-19 21:48:12,908 - INFO - Entities extracted and saved to: C:\Users\Vishwas\Desktop\Interview docs\Vanilla Steel\supplier_data_standardization_for_metal_trading\data\final_combined_output_with_entities.csv

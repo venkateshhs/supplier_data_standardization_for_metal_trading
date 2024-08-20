@@ -1,0 +1,25 @@
+2024-08-19 21:37:43,824 - INFO - Created vocabulary
+2024-08-19 21:37:43,825 - INFO - Finished initializing nlp object
+2024-08-19 21:37:44,860 - INFO - Iteration 1, Losses: {'ner': 2060.6951484680176}
+2024-08-19 21:37:45,903 - INFO - Iteration 2, Losses: {'ner': 1096.4953433488263}
+2024-08-19 21:37:46,941 - INFO - Iteration 3, Losses: {'ner': 460.44541648663017}
+2024-08-19 21:37:48,217 - INFO - Iteration 4, Losses: {'ner': 163.10362536701706}
+2024-08-19 21:37:49,438 - INFO - Iteration 5, Losses: {'ner': 92.92810539552569}
+2024-08-19 21:37:50,788 - INFO - Iteration 6, Losses: {'ner': 31.914985510137868}
+2024-08-19 21:37:52,189 - INFO - Iteration 7, Losses: {'ner': 58.77775064397559}
+2024-08-19 21:37:53,364 - INFO - Iteration 8, Losses: {'ner': 56.62969159879616}
+2024-08-19 21:37:54,591 - INFO - Iteration 9, Losses: {'ner': 16.7298696000582}
+2024-08-19 21:37:55,654 - INFO - Iteration 10, Losses: {'ner': 28.09741184436502}
+2024-08-19 21:37:56,608 - INFO - Iteration 11, Losses: {'ner': 40.123377059085456}
+2024-08-19 21:37:57,561 - INFO - Iteration 12, Losses: {'ner': 3.5149718112806254}
+2024-08-19 21:37:58,486 - INFO - Iteration 13, Losses: {'ner': 3.6877772072319166}
+2024-08-19 21:37:59,373 - INFO - Iteration 14, Losses: {'ner': 0.4940051152368437}
+2024-08-19 21:38:00,345 - INFO - Iteration 15, Losses: {'ner': 0.014539165271364075}
+2024-08-19 21:38:01,278 - INFO - Iteration 16, Losses: {'ner': 1.466564171541633}
+2024-08-19 21:38:02,196 - INFO - Iteration 17, Losses: {'ner': 0.03273261468857583}
+2024-08-19 21:38:03,127 - INFO - Iteration 18, Losses: {'ner': 0.038838296973526344}
+2024-08-19 21:38:04,059 - INFO - Iteration 19, Losses: {'ner': 0.041109970150808486}
+2024-08-19 21:38:04,995 - INFO - Iteration 20, Losses: {'ner': 0.6025007485540386}
+2024-08-19 21:38:04,995 - INFO - Early stopping: No improvement in loss for the last 5 iterations.
+2024-08-19 21:38:05,778 - ERROR - Error extracting entities from CSV: [E1041] Expected a string, Doc, or bytes as input, but got: <class 'float'>
+2024-08-19 21:38:05,778 - INFO - Entities extracted and saved to: C:\Users\Vishwas\Desktop\Interview docs\Vanilla Steel\supplier_data_standardization_for_metal_trading\data\final_combined_output_with_entities.csv

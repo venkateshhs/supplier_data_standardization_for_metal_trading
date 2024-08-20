@@ -1,0 +1,11 @@
+2024-08-19 21:10:33,566 - INFO - File source1.xlsx successfully read from C:\Users\Vishwas\Desktop\Interview docs\Vanilla Steel\supplier_data_standardization_for_metal_trading\data\source1.xlsx.
+2024-08-19 21:10:33,577 - INFO - source1.xlsx processed successfully.
+2024-08-19 21:10:33,624 - INFO - Headers cleaned successfully.
+2024-08-19 21:10:33,624 - INFO - Headers cleaned successfully.
+2024-08-19 21:10:33,624 - INFO - Quantity column validated successfully.
+2024-08-19 21:10:33,624 - INFO - Quantity column validated successfully.
+2024-08-19 21:10:33,639 - INFO - File source3.xlsx successfully read from C:\Users\Vishwas\Desktop\Interview docs\Vanilla Steel\supplier_data_standardization_for_metal_trading\data\source3.xlsx.
+2024-08-19 21:10:33,666 - INFO - Final Combined CSV file saved to: C:\Users\Vishwas\Desktop\Interview docs\Vanilla Steel\supplier_data_standardization_for_metal_trading\data\final_combined_output.csv
+2024-08-19 21:10:33,686 - INFO - CSV file final_combined_output.csv read successfully.
+2024-08-19 21:10:33,686 - INFO - All CSV files merged successfully.
+2024-08-19 21:10:33,686 - INFO - All CSV files merged and saved to: C:\Users\Vishwas\Desktop\Interview docs\Vanilla Steel\supplier_data_standardization_for_metal_trading\data\final_merged_csv_output.csv

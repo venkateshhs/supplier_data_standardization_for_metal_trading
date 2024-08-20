@@ -1,0 +1,27 @@
+2024-08-20 10:45:37,466 - INFO - Created vocabulary
+2024-08-20 10:45:37,466 - INFO - Finished initializing nlp object
+2024-08-20 10:45:39,040 - INFO - Iteration 1, Losses: {'ner': 2024.031311482191}
+2024-08-20 10:45:40,956 - INFO - Iteration 2, Losses: {'ner': 1272.0096011647256}
+2024-08-20 10:45:42,101 - INFO - Iteration 3, Losses: {'ner': 701.7117706174249}
+2024-08-20 10:45:43,167 - INFO - Iteration 4, Losses: {'ner': 236.50694064971887}
+2024-08-20 10:45:44,153 - INFO - Iteration 5, Losses: {'ner': 80.31615176526515}
+2024-08-20 10:45:45,170 - INFO - Iteration 6, Losses: {'ner': 60.14674450537146}
+2024-08-20 10:45:46,110 - INFO - Iteration 7, Losses: {'ner': 34.70987582649258}
+2024-08-20 10:45:47,098 - INFO - Iteration 8, Losses: {'ner': 19.91543892022457}
+2024-08-20 10:45:48,084 - INFO - Iteration 9, Losses: {'ner': 80.44771176438083}
+2024-08-20 10:45:49,023 - INFO - Iteration 10, Losses: {'ner': 22.57294198485557}
+2024-08-20 10:45:49,883 - INFO - Iteration 11, Losses: {'ner': 2.6955179554968924}
+2024-08-20 10:45:50,805 - INFO - Iteration 12, Losses: {'ner': 0.5463516192265132}
+2024-08-20 10:45:51,696 - INFO - Iteration 13, Losses: {'ner': 1.7500849594196735}
+2024-08-20 10:45:52,635 - INFO - Iteration 14, Losses: {'ner': 0.3689641945454595}
+2024-08-20 10:45:53,494 - INFO - Iteration 15, Losses: {'ner': 0.48529601389986887}
+2024-08-20 10:45:54,434 - INFO - Iteration 16, Losses: {'ner': 0.031206391076348546}
+2024-08-20 10:45:55,357 - INFO - Iteration 17, Losses: {'ner': 0.006637159784024106}
+2024-08-20 10:45:56,232 - INFO - Iteration 18, Losses: {'ner': 0.3656800596277207}
+2024-08-20 10:45:57,124 - INFO - Iteration 19, Losses: {'ner': 2.0558958560187914}
+2024-08-20 10:45:58,047 - INFO - Iteration 20, Losses: {'ner': 1.3124086648900135}
+2024-08-20 10:45:58,954 - INFO - Iteration 21, Losses: {'ner': 1.0754453051775688}
+2024-08-20 10:45:59,845 - INFO - Iteration 22, Losses: {'ner': 0.23364487729357447}
+2024-08-20 10:45:59,845 - INFO - Early stopping: No improvement in loss for the last 5 iterations.
+2024-08-20 10:46:00,549 - INFO - Entities extracted and saved to: C:\Users\Vishwas\Desktop\Interview docs\Vanilla Steel\supplier_data_standardization_for_metal_trading\data\final_combined_output_with_entities.csv
+2024-08-20 10:46:00,549 - INFO - Entities extracted and saved to: C:\Users\Vishwas\Desktop\Interview docs\Vanilla Steel\supplier_data_standardization_for_metal_trading\data\final_combined_output_with_entities.csv

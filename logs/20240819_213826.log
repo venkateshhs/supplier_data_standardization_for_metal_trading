@@ -1,0 +1,24 @@
+2024-08-19 21:38:26,370 - INFO - Created vocabulary
+2024-08-19 21:38:26,370 - INFO - Finished initializing nlp object
+2024-08-19 21:38:27,494 - INFO - Iteration 1, Losses: {'ner': 2039.049631357193}
+2024-08-19 21:38:28,506 - INFO - Iteration 2, Losses: {'ner': 1143.9549370775349}
+2024-08-19 21:38:29,511 - INFO - Iteration 3, Losses: {'ner': 514.7925351619119}
+2024-08-19 21:38:30,576 - INFO - Iteration 4, Losses: {'ner': 274.8137631970852}
+2024-08-19 21:38:31,622 - INFO - Iteration 5, Losses: {'ner': 80.17267500215442}
+2024-08-19 21:38:32,811 - INFO - Iteration 6, Losses: {'ner': 128.1336684488628}
+2024-08-19 21:38:33,965 - INFO - Iteration 7, Losses: {'ner': 36.29573536765437}
+2024-08-19 21:38:35,061 - INFO - Iteration 8, Losses: {'ner': 5.394216678010094}
+2024-08-19 21:38:36,143 - INFO - Iteration 9, Losses: {'ner': 17.06631735629324}
+2024-08-19 21:38:37,221 - INFO - Iteration 10, Losses: {'ner': 4.205883691874931}
+2024-08-19 21:38:38,249 - INFO - Iteration 11, Losses: {'ner': 1.7563009934507816}
+2024-08-19 21:38:39,362 - INFO - Iteration 12, Losses: {'ner': 3.0719882022519176}
+2024-08-19 21:38:40,707 - INFO - Iteration 13, Losses: {'ner': 2.2711469138086544}
+2024-08-19 21:38:41,903 - INFO - Iteration 14, Losses: {'ner': 0.0013974193411487776}
+2024-08-19 21:38:42,968 - INFO - Iteration 15, Losses: {'ner': 2.020435269845227}
+2024-08-19 21:38:45,798 - INFO - Iteration 16, Losses: {'ner': 1.1842535280610835}
+2024-08-19 21:38:46,913 - INFO - Iteration 17, Losses: {'ner': 1.983943812748318}
+2024-08-19 21:38:48,222 - INFO - Iteration 18, Losses: {'ner': 0.08951595211647478}
+2024-08-19 21:38:50,077 - INFO - Iteration 19, Losses: {'ner': 0.05284405597615267}
+2024-08-19 21:38:50,077 - INFO - Early stopping: No improvement in loss for the last 5 iterations.
+2024-08-19 21:38:50,960 - ERROR - Error extracting entities from CSV: [E1041] Expected a string, Doc, or bytes as input, but got: <class 'float'>
+2024-08-19 21:38:50,960 - INFO - Entities extracted and saved to: C:\Users\Vishwas\Desktop\Interview docs\Vanilla Steel\supplier_data_standardization_for_metal_trading\data\final_combined_output_with_entities.csv

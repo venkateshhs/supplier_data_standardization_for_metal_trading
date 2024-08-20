@@ -1,0 +1,24 @@
+2024-08-20 09:36:00,243 - INFO - Created vocabulary
+2024-08-20 09:36:00,243 - INFO - Finished initializing nlp object
+2024-08-20 09:36:01,312 - INFO - Iteration 1, Losses: {'ner': 1991.3024669885635}
+2024-08-20 09:36:02,387 - INFO - Iteration 2, Losses: {'ner': 1176.1940087889088}
+2024-08-20 09:36:03,419 - INFO - Iteration 3, Losses: {'ner': 489.0202837050612}
+2024-08-20 09:36:04,450 - INFO - Iteration 4, Losses: {'ner': 269.3531043863779}
+2024-08-20 09:36:05,481 - INFO - Iteration 5, Losses: {'ner': 84.25902366385688}
+2024-08-20 09:36:06,451 - INFO - Iteration 6, Losses: {'ner': 43.617016827388305}
+2024-08-20 09:36:07,548 - INFO - Iteration 7, Losses: {'ner': 73.22888079592909}
+2024-08-20 09:36:08,565 - INFO - Iteration 8, Losses: {'ner': 43.48050902360403}
+2024-08-20 09:36:09,566 - INFO - Iteration 9, Losses: {'ner': 3.7400799008868733}
+2024-08-20 09:36:10,534 - INFO - Iteration 10, Losses: {'ner': 13.623644177633143}
+2024-08-20 09:36:11,488 - INFO - Iteration 11, Losses: {'ner': 1.7351560581858168}
+2024-08-20 09:36:12,412 - INFO - Iteration 12, Losses: {'ner': 0.06104996925305846}
+2024-08-20 09:36:13,412 - INFO - Iteration 13, Losses: {'ner': 2.0447912561077737}
+2024-08-20 09:36:14,413 - INFO - Iteration 14, Losses: {'ner': 0.050770438707043654}
+2024-08-20 09:36:15,368 - INFO - Iteration 15, Losses: {'ner': 0.18822524180531863}
+2024-08-20 09:36:16,259 - INFO - Iteration 16, Losses: {'ner': 0.33625569231888347}
+2024-08-20 09:36:17,198 - INFO - Iteration 17, Losses: {'ner': 0.1535256739938073}
+2024-08-20 09:36:18,090 - INFO - Iteration 18, Losses: {'ner': 0.7440290392499636}
+2024-08-20 09:36:19,020 - INFO - Iteration 19, Losses: {'ner': 2.360403050339191}
+2024-08-20 09:36:19,032 - INFO - Early stopping: No improvement in loss for the last 5 iterations.
+2024-08-20 09:36:20,031 - ERROR - Error extracting entities from CSV: Must specify axis=0 or 1
+2024-08-20 09:36:20,031 - INFO - Entities extracted and saved to: C:\Users\Vishwas\Desktop\Interview docs\Vanilla Steel\supplier_data_standardization_for_metal_trading\data\final_combined_output_with_entities.csv

@@ -1,0 +1,26 @@
+2024-08-20 09:32:25,779 - INFO - Created vocabulary
+2024-08-20 09:32:25,779 - INFO - Finished initializing nlp object
+2024-08-20 09:32:26,843 - INFO - Iteration 1, Losses: {'ner': 2144.335959792137}
+2024-08-20 09:32:27,845 - INFO - Iteration 2, Losses: {'ner': 1304.204439149793}
+2024-08-20 09:32:28,912 - INFO - Iteration 3, Losses: {'ner': 340.87562424383634}
+2024-08-20 09:32:30,038 - INFO - Iteration 4, Losses: {'ner': 224.26340973646035}
+2024-08-20 09:32:31,362 - INFO - Iteration 5, Losses: {'ner': 55.54237385251673}
+2024-08-20 09:32:32,505 - INFO - Iteration 6, Losses: {'ner': 29.007257257015866}
+2024-08-20 09:32:34,621 - INFO - Iteration 7, Losses: {'ner': 98.02312105143456}
+2024-08-20 09:32:35,544 - INFO - Iteration 8, Losses: {'ner': 19.533551177514944}
+2024-08-20 09:32:36,451 - INFO - Iteration 9, Losses: {'ner': 59.08379058712244}
+2024-08-20 09:32:37,374 - INFO - Iteration 10, Losses: {'ner': 44.222249931349495}
+2024-08-20 09:32:38,281 - INFO - Iteration 11, Losses: {'ner': 0.046912743776127065}
+2024-08-20 09:32:39,228 - INFO - Iteration 12, Losses: {'ner': 0.787328199786048}
+2024-08-20 09:32:40,113 - INFO - Iteration 13, Losses: {'ner': 0.07154369969297235}
+2024-08-20 09:32:41,042 - INFO - Iteration 14, Losses: {'ner': 0.09312932339467192}
+2024-08-20 09:32:41,928 - INFO - Iteration 15, Losses: {'ner': 2.460267044554658}
+2024-08-20 09:32:42,850 - INFO - Iteration 16, Losses: {'ner': 0.002808156919475737}
+2024-08-20 09:32:43,773 - INFO - Iteration 17, Losses: {'ner': 3.8267151587137334}
+2024-08-20 09:32:44,695 - INFO - Iteration 18, Losses: {'ner': 0.1712705289455455}
+2024-08-20 09:32:45,601 - INFO - Iteration 19, Losses: {'ner': 0.8307909431820069}
+2024-08-20 09:32:46,496 - INFO - Iteration 20, Losses: {'ner': 0.004381165752648172}
+2024-08-20 09:32:47,397 - INFO - Iteration 21, Losses: {'ner': 2.2532569548585855}
+2024-08-20 09:32:47,397 - INFO - Early stopping: No improvement in loss for the last 5 iterations.
+2024-08-20 09:32:48,319 - ERROR - Error extracting entities from CSV: Must specify axis=0 or 1
+2024-08-20 09:32:48,319 - INFO - Entities extracted and saved to: C:\Users\Vishwas\Desktop\Interview docs\Vanilla Steel\supplier_data_standardization_for_metal_trading\data\final_combined_output_with_entities.csv

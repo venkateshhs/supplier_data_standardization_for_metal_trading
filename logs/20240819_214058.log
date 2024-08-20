@@ -1,0 +1,18 @@
+2024-08-19 21:40:58,534 - INFO - Created vocabulary
+2024-08-19 21:40:58,534 - INFO - Finished initializing nlp object
+2024-08-19 21:40:59,768 - INFO - Iteration 1, Losses: {'ner': 2116.241910338402}
+2024-08-19 21:41:00,908 - INFO - Iteration 2, Losses: {'ner': 967.657781419286}
+2024-08-19 21:41:01,944 - INFO - Iteration 3, Losses: {'ner': 387.28654281008266}
+2024-08-19 21:41:02,967 - INFO - Iteration 4, Losses: {'ner': 300.7321446262176}
+2024-08-19 21:41:04,027 - INFO - Iteration 5, Losses: {'ner': 210.62844693575406}
+2024-08-19 21:41:05,104 - INFO - Iteration 6, Losses: {'ner': 86.53030969842385}
+2024-08-19 21:41:06,155 - INFO - Iteration 7, Losses: {'ner': 53.23278078066546}
+2024-08-19 21:41:07,153 - INFO - Iteration 8, Losses: {'ner': 38.43998629561286}
+2024-08-19 21:41:08,141 - INFO - Iteration 9, Losses: {'ner': 24.11460993744495}
+2024-08-19 21:41:09,107 - INFO - Iteration 10, Losses: {'ner': 39.71147362520323}
+2024-08-19 21:41:10,143 - INFO - Iteration 11, Losses: {'ner': 29.173105389921336}
+2024-08-19 21:41:11,487 - INFO - Iteration 12, Losses: {'ner': 1.7339832847667285}
+2024-08-19 21:41:12,500 - INFO - Iteration 13, Losses: {'ner': 4.141699514404774}
+2024-08-19 21:41:13,520 - INFO - Iteration 14, Losses: {'ner': 1.8964895436123483}
+2024-08-19 21:41:14,664 - INFO - Iteration 15, Losses: {'ner': 0.07842710879764866}
+2024-08-19 21:41:15,678 - INFO - Iteration 16, Losses: {'ner': 0.023222691250350556}

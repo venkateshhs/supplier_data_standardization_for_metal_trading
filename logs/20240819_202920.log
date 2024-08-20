@@ -1,0 +1,4 @@
+2024-08-19 20:29:20,666 - INFO - File source1.xlsx successfully read from C:\Users\Vishwas\Desktop\Interview docs\Vanilla Steel\supplier_data_standardization_for_metal_trading\data\source1.xlsx.
+2024-08-19 20:29:20,666 - INFO - Columns renamed successfully.
+2024-08-19 20:29:20,666 - INFO - Dimensions merged successfully.
+2024-08-19 20:29:20,666 - INFO - NaN values dropped successfully.

@@ -1,0 +1,10 @@
+2024-08-20 10:25:03,598 - INFO - Created vocabulary
+2024-08-20 10:25:03,598 - INFO - Finished initializing nlp object
+2024-08-20 10:25:04,630 - INFO - Iteration 1, Losses: {'ner': 2264.4714443683624}
+2024-08-20 10:25:05,569 - INFO - Iteration 2, Losses: {'ner': 943.8346783146262}
+2024-08-20 10:25:06,476 - INFO - Iteration 3, Losses: {'ner': 325.7109458931242}
+2024-08-20 10:25:07,446 - INFO - Iteration 4, Losses: {'ner': 223.81647779290984}
+2024-08-20 10:25:08,479 - INFO - Iteration 5, Losses: {'ner': 93.38510955047455}
+2024-08-20 10:25:09,402 - INFO - Iteration 6, Losses: {'ner': 77.67124582570673}
+2024-08-20 10:25:10,434 - INFO - Iteration 7, Losses: {'ner': 95.68537075338263}
+2024-08-20 10:25:11,502 - INFO - Iteration 8, Losses: {'ner': 66.93640119685077}

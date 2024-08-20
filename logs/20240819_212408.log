@@ -1,0 +1,29 @@
+2024-08-19 21:24:09,316 - INFO - Created vocabulary
+2024-08-19 21:24:09,347 - INFO - Finished initializing nlp object
+2024-08-19 21:24:10,363 - INFO - Iteration 1, Losses: {'ner': 161.27708685398102}
+2024-08-19 21:24:10,615 - INFO - Iteration 2, Losses: {'ner': 147.12271255254745}
+2024-08-19 21:24:10,843 - INFO - Iteration 3, Losses: {'ner': 138.00138318538666}
+2024-08-19 21:24:11,065 - INFO - Iteration 4, Losses: {'ner': 128.9423240274191}
+2024-08-19 21:24:11,338 - INFO - Iteration 5, Losses: {'ner': 114.69173315167427}
+2024-08-19 21:24:11,599 - INFO - Iteration 6, Losses: {'ner': 91.01246769726276}
+2024-08-19 21:24:11,838 - INFO - Iteration 7, Losses: {'ner': 67.56313542556018}
+2024-08-19 21:24:12,075 - INFO - Iteration 8, Losses: {'ner': 48.69389353634506}
+2024-08-19 21:24:12,312 - INFO - Iteration 9, Losses: {'ner': 38.09310139106401}
+2024-08-19 21:24:12,552 - INFO - Iteration 10, Losses: {'ner': 25.476770819865152}
+2024-08-19 21:24:12,771 - INFO - Iteration 11, Losses: {'ner': 25.116603931926306}
+2024-08-19 21:24:12,973 - INFO - Iteration 12, Losses: {'ner': 14.314517405238476}
+2024-08-19 21:24:13,210 - INFO - Iteration 13, Losses: {'ner': 8.421889325820043}
+2024-08-19 21:24:13,414 - INFO - Iteration 14, Losses: {'ner': 8.072556921117329}
+2024-08-19 21:24:13,633 - INFO - Iteration 15, Losses: {'ner': 11.01747243848168}
+2024-08-19 21:24:13,867 - INFO - Iteration 16, Losses: {'ner': 9.710629566314347}
+2024-08-19 21:24:14,070 - INFO - Iteration 17, Losses: {'ner': 2.9022312576681317}
+2024-08-19 21:24:14,295 - INFO - Iteration 18, Losses: {'ner': 4.131531362016318}
+2024-08-19 21:24:14,509 - INFO - Iteration 19, Losses: {'ner': 6.275952901077738}
+2024-08-19 21:24:14,729 - INFO - Iteration 20, Losses: {'ner': 6.747382972758462}
+2024-08-19 21:24:14,979 - INFO - Iteration 21, Losses: {'ner': 1.95624404033502}
+2024-08-19 21:24:15,230 - INFO - Iteration 22, Losses: {'ner': 3.1985042941856165}
+2024-08-19 21:24:15,466 - INFO - Iteration 23, Losses: {'ner': 5.556576586160619}
+2024-08-19 21:24:15,701 - INFO - Iteration 24, Losses: {'ner': 3.8286020805169585}
+2024-08-19 21:24:15,905 - INFO - Iteration 25, Losses: {'ner': 2.691086052238183}
+2024-08-19 21:24:16,124 - INFO - Iteration 26, Losses: {'ner': 2.275717007526226}
+2024-08-19 21:24:16,124 - INFO - Early stopping: No improvement in loss for the last 5 iterations.

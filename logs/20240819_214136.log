@@ -1,0 +1,27 @@
+2024-08-19 21:41:37,144 - INFO - Created vocabulary
+2024-08-19 21:41:37,144 - INFO - Finished initializing nlp object
+2024-08-19 21:41:38,245 - INFO - Iteration 1, Losses: {'ner': 2345.8343385457993}
+2024-08-19 21:41:40,225 - INFO - Iteration 2, Losses: {'ner': 1125.5068390660454}
+2024-08-19 21:41:41,769 - INFO - Iteration 3, Losses: {'ner': 532.4171752407087}
+2024-08-19 21:41:43,030 - INFO - Iteration 4, Losses: {'ner': 109.60542417684537}
+2024-08-19 21:41:45,733 - INFO - Iteration 5, Losses: {'ner': 103.74317795990025}
+2024-08-19 21:41:48,980 - INFO - Iteration 6, Losses: {'ner': 104.11145041603656}
+2024-08-19 21:41:51,755 - INFO - Iteration 7, Losses: {'ner': 17.960193533137783}
+2024-08-19 21:41:54,592 - INFO - Iteration 8, Losses: {'ner': 24.753005109560153}
+2024-08-19 21:41:57,625 - INFO - Iteration 9, Losses: {'ner': 14.90410708730669}
+2024-08-19 21:42:00,580 - INFO - Iteration 10, Losses: {'ner': 20.46948021117761}
+2024-08-19 21:42:03,524 - INFO - Iteration 11, Losses: {'ner': 15.656885285385695}
+2024-08-19 21:42:06,968 - INFO - Iteration 12, Losses: {'ner': 43.934583116153405}
+2024-08-19 21:42:10,606 - INFO - Iteration 13, Losses: {'ner': 1.1195921719592563}
+2024-08-19 21:42:14,095 - INFO - Iteration 14, Losses: {'ner': 0.4744350347348322}
+2024-08-19 21:42:17,038 - INFO - Iteration 15, Losses: {'ner': 0.8102875632578047}
+2024-08-19 21:42:19,735 - INFO - Iteration 16, Losses: {'ner': 0.02809270986849146}
+2024-08-19 21:42:22,939 - INFO - Iteration 17, Losses: {'ner': 0.001999740936944168}
+2024-08-19 21:42:25,971 - INFO - Iteration 18, Losses: {'ner': 0.00011570542490637192}
+2024-08-19 21:42:28,909 - INFO - Iteration 19, Losses: {'ner': 0.00016459618200566963}
+2024-08-19 21:42:32,108 - INFO - Iteration 20, Losses: {'ner': 0.046121761366181555}
+2024-08-19 21:42:35,292 - INFO - Iteration 21, Losses: {'ner': 2.704625719248311}
+2024-08-19 21:42:38,121 - INFO - Iteration 22, Losses: {'ner': 3.159357368702654}
+2024-08-19 21:42:41,041 - INFO - Iteration 23, Losses: {'ner': 0.2612152982057734}
+2024-08-19 21:42:41,041 - INFO - Early stopping: No improvement in loss for the last 5 iterations.
+2024-08-19 21:42:42,190 - ERROR - Error in main execution: [E1041] Expected a string, Doc, or bytes as input, but got: <class 'float'>
