@@ -1,3 +1,38 @@
+# **Table of Contents**
+
+1. [Supplier Data Standardization for Metal Trading](#supplier-data-standardization-for-metal-trading)
+2. [Setup](#setup)
+   - [Clone the repository](#clone-the-repository)
+   - [Create a virtual environment](#create-a-virtual-environment)
+   - [Install the required dependencies](#install-the-required-dependencies)
+   - [Download Spacy](#download-spacy)
+3. [Running the Project](#running-the-project)
+   - [Step 1: Run the Main Script](#step-1-run-the-main-script)
+   - [Step 2: Run the NER Model](#step-2-run-the-ner-model)
+4. [Data Requirements](#data-requirements)
+5. [Running Tests](#running-tests)
+6. [Data Processing and NLP Training Overview](#data-processing-and-nlp-training-overview)
+   - [Data Processing Steps](#data-processing-steps)
+     - [Source1.xlsx](#source1xlsx)
+     - [Source2.xlsx](#source2xlsx)
+     - [Source3.xlsx](#source3xlsx)
+   - [Dimension Processing](#dimension-processing)
+   - [NLP Model Training](#nlp-model-training)
+     - [Special Patterns](#special-patterns)
+   - [Training Loop and Model Saving](#training-loop-and-model-saving)
+   - [Entity Extraction and Final Output](#entity-extraction-and-final-output)
+7. [Logging](#logging)
+8. [TODOs and Future Enhancements](#todos-and-future-enhancements)
+   - [Consideration of Additional Columns](#consideration-of-additional-columns)
+   - [Article ID Standardization](#article-id-standardization)
+   - [Standardized Dictionary for COATING_TYPE and FINISH_TYPE](#standardized-dictionary-for-coating_type-and-finish_type)
+   - [Standardized Material Grade](#standardized-material-grade)
+   - [Improve NER Training](#improve-ner-training)
+   - [Dimension Processing Errors](#dimension-processing-errors)
+   - [Tokenization and Prediction Mismatches](#tokenization-and-prediction-mismatches)
+   - [Exploring GPT Embeddings for Improved Accuracy](#exploring-gpt-embeddings-for-improved-accuracy)
+
+
 # **Supplier Data Standardization for Metal Trading**
 
 This project is designed to standardize and process supplier data in the metal trading industry. It leverages Python libraries such as `pandas` and `spaCy` to preprocess data, extract entities using Natural Language Processing (NLP), and produce a standardized output.
