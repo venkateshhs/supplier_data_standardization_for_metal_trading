@@ -1,0 +1,11 @@
+2024-09-04 20:37:24,749 - INFO - File source1.xlsx successfully read from C:\Users\Lenovo\Desktop\Venka Projects\supplier_data_standardization_for_metal_trading\data\source1.xlsx.
+2024-09-04 20:37:24,749 - INFO - source1.xlsx processed successfully.
+2024-09-04 20:37:24,814 - INFO - Headers cleaned successfully.
+2024-09-04 20:37:24,814 - INFO - Headers cleaned successfully.
+2024-09-04 20:37:24,814 - INFO - Quantity column validated successfully.
+2024-09-04 20:37:24,814 - INFO - Quantity column validated successfully.
+2024-09-04 20:37:24,844 - INFO - File source3.xlsx successfully read from C:\Users\Lenovo\Desktop\Venka Projects\supplier_data_standardization_for_metal_trading\data\source3.xlsx.
+2024-09-04 20:37:24,860 - INFO - Final Combined CSV file saved to: C:\Users\Lenovo\Desktop\Venka Projects\supplier_data_standardization_for_metal_trading\data\final_combined_output.csv
+2024-09-04 20:37:24,892 - INFO - CSV file final_combined_output.csv read successfully.
+2024-09-04 20:37:24,908 - INFO - CSV file final_combined_output_with_entities.csv read successfully.
+2024-09-04 20:37:24,908 - INFO - All CSV files merged successfully.

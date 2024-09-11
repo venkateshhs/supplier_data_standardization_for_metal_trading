@@ -1,0 +1,26 @@
+2024-09-11 17:00:23,978 - INFO - Created vocabulary
+2024-09-11 17:00:23,978 - INFO - Finished initializing nlp object
+2024-09-11 17:00:25,416 - INFO - Iteration 1, Losses: {'ner': 2442.9449432194233}
+2024-09-11 17:00:26,514 - INFO - Iteration 2, Losses: {'ner': 961.5820112896618}
+2024-09-11 17:00:27,532 - INFO - Iteration 3, Losses: {'ner': 423.10679974350194}
+2024-09-11 17:00:28,565 - INFO - Iteration 4, Losses: {'ner': 191.7033332817571}
+2024-09-11 17:00:29,662 - INFO - Iteration 5, Losses: {'ner': 135.69983776547218}
+2024-09-11 17:00:30,814 - INFO - Iteration 6, Losses: {'ner': 127.29021799579155}
+2024-09-11 17:00:31,986 - INFO - Iteration 7, Losses: {'ner': 25.864423142779554}
+2024-09-11 17:00:33,101 - INFO - Iteration 8, Losses: {'ner': 45.40067496332}
+2024-09-11 17:00:34,169 - INFO - Iteration 9, Losses: {'ner': 30.103274104693817}
+2024-09-11 17:00:35,251 - INFO - Iteration 10, Losses: {'ner': 80.9746574783834}
+2024-09-11 17:00:36,426 - INFO - Iteration 11, Losses: {'ner': 7.999047478943695}
+2024-09-11 17:00:37,663 - INFO - Iteration 12, Losses: {'ner': 11.353050727792546}
+2024-09-11 17:00:38,963 - INFO - Iteration 13, Losses: {'ner': 0.30432857967628896}
+2024-09-11 17:00:40,374 - INFO - Iteration 14, Losses: {'ner': 3.417696213977983}
+2024-09-11 17:00:41,724 - INFO - Iteration 15, Losses: {'ner': 2.066785859511948}
+2024-09-11 17:00:43,132 - INFO - Iteration 16, Losses: {'ner': 0.005774618891359204}
+2024-09-11 17:00:44,433 - INFO - Iteration 17, Losses: {'ner': 0.005959286988306197}
+2024-09-11 17:00:45,760 - INFO - Iteration 18, Losses: {'ner': 0.027558859794225624}
+2024-09-11 17:00:47,120 - INFO - Iteration 19, Losses: {'ner': 0.8218500921966203}
+2024-09-11 17:00:48,389 - INFO - Iteration 20, Losses: {'ner': 1.4880681923461099}
+2024-09-11 17:00:49,785 - INFO - Iteration 21, Losses: {'ner': 0.20557730462551804}
+2024-09-11 17:00:49,785 - INFO - Early stopping: No improvement in loss for the last 5 iterations.
+2024-09-11 17:00:50,914 - INFO - Entities extracted and saved to: C:\Users\Lenovo\Desktop\Venka Projects\supplier_data_standardization_for_metal_trading\data\final_combined_output_with_entities.csv
+2024-09-11 17:00:50,914 - INFO - Entities extracted and saved to: C:\Users\Lenovo\Desktop\Venka Projects\supplier_data_standardization_for_metal_trading\data\final_combined_output_with_entities.csv

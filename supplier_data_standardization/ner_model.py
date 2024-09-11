@@ -22,23 +22,56 @@ def preprocess_dimensions(text: str) -> str:
     str: The preprocessed text.
     """
     try:
+        # Replace patterns like '9,99 * 1500' by removing spaces around '*'
+        # This ensures dimensions like '9,99 * 1500' are standardized as '9,99*1500'
         text = re.sub(r'(\d+,\d+)\s*\*\s*(\d+)', r'\1*\2', text)
+
+        # Replace patterns like '9 * 1500' by removing spaces around '*'
+        # This ensures dimensions like '9 * 1500' are standardized as '9*1500'
         text = re.sub(r'(\d+)\s*\*\s*(\d+)', r'\1*\2', text)
+
+        # Handle three-part dimensions with 'x' separators (e.g., '1,50 x 1350,00 x 2850,00')
+        # The regex matches three comma-separated dimensions and attaches optional units like mm, cm, m, etc.
         three_dim_pattern = r'(\d+,\d+)\s*x\s*(\d+,\d+)\s*x\s*(\d+,\d+)\s*(mm|cm|m|kg|g)?'
         text = re.sub(three_dim_pattern, r'\1x\2x\3\4', text)
+
+        # Handle two-part dimensions with 'x' separator, and ensure units like mm/cm/m are attached correctly
+        # This ensures patterns like '9,99 x 1500 mm' are normalized without extra spaces (e.g., '9,99x1500mm')
         two_dim_with_unit_pattern = r'(\d+,\d+|\d+)\s*x\s*(\d+,\d+|\d+)\s*(mm|cm|m|kg|g)?'
         text = re.sub(two_dim_with_unit_pattern, r'\1x\2\3', text)
+
+        # Handle two-part dimensions without units (e.g., '1,50 x 1500')
+        # This ensures dimensions like '1,50 x 1500' are standardized as '1,50x1500'
         two_dim_no_unit_pattern = r'(\d+,\d+|\d+)\s*x\s*(\d+,\d+)'
         text = re.sub(two_dim_no_unit_pattern, r'\1x\2', text)
+
+        # Handle dimensions with '*' separator and units attached
+        # For example, it converts '1,50 * 1500 mm' to '1,50*1500mm'
         two_dim_star_with_unit_pattern = r'(\d+,\d+|\d+)\s*\*\s*(\d+)\s*(mm|cm|m|kg|g)?'
         text = re.sub(two_dim_star_with_unit_pattern, r'\1*\2\3', text)
+
+        # Handle dimensions with '*' separator but no unit attached
+        # For example, it converts '1,50 * 1500' to '1,50*1500'
         two_dim_star_no_unit_pattern = r'(\d+,\d+|\d+)\s*\*\s*(\d+)'
         text = re.sub(two_dim_star_no_unit_pattern, r'\1*\2', text)
+
+        # Handle single-part dimension followed by a unit, ensuring no space between the number and unit
+        # For example, '1250,00 mm' is converted to '1250,00mm'
         single_dim_with_unit_pattern = r'(\d+,\d+|\d+)\s*(mm|cm|m|kg|g)'
         text = re.sub(single_dim_with_unit_pattern, r'\1\2', text)
+
+        # Remove any space before units like mm, cm, or m if there is a number followed by a space
+        # For example, '1250 mm' becomes '1250mm'
         text = re.sub(r'(\d)\s+(?=mm|cm|m)', r'\1', text)
+
+        # Ensure that a space exists between the last dimension and any trailing text part
+        # For example, '1250x1500AFP' is converted to '1250x1500 AFP'
         text = re.sub(r'(\d+x\d+)(\s*)([A-Za-z])', r'\1 \3', text)
+
+        # Replace '*' with 'x' to ensure consistency in the final output
+        # For example, '1250*1500' becomes '1250x1500'
         text = text.replace('*', 'x')
+
         return text
     except Exception as e:
         logging.error(f"Error preprocessing dimensions for text: {text} - {e}")
