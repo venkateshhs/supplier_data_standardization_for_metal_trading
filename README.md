@@ -156,8 +156,8 @@ After merging the processed data from all sources, the `material` column was use
 
 During the training, several special patterns were added to the model's pipeline to enhance its recognition capabilities:
 - **`PLUS_ALPHANUMERIC`**: Handles cases like `+Z140`.
-- **`SLASH_PATTERN`**: Recognizes patterns like `Ma-C`.
-- **`HYPHENATED`**: Merges hyphenated words like `geolied`.
+- **`SLASH_PATTERN`**: Recognizes patterns like `ab/c`.
+- **`HYPHENATED`**: Merges hyphenated words like `Ma-C`.
 
 ## Training Loop and Model Saving
 
